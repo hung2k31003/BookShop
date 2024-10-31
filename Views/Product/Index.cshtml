@@ -1,0 +1,222 @@
+﻿@using Microsoft.AspNetCore.Http
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_MainLayout";
+}
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
+    <div class="row">
+        <div class="col-12">
+            <div class="breadcrumb_content">
+                <ul>
+                    <li><a href="/">home</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--breadcrumbs area end-->
+<!--shop toolbar start-->
+<div class="shop_toolbar mb-35">
+
+    <div class="list_button">
+        <ul class="nav" role="tablist">
+            <li>
+                <a id="large_tab" class="active" data-toggle="tab" href="#large" role="tab" aria-controls="large" aria-selected="true"><i class="fa fa-th-large"></i></a>
+            </li>
+            <li>
+                <a id="list_tab" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false"><i class="fa fa-th-list"></i></a>
+            </li>
+        </ul>
+    </div>
+    @* <div class="page_amount">
+    <p>Showing 1–9 of 21 results</p>
+    </div> *@
+
+    <div class="select_option">
+        <form action="#">
+            <label>Sắp xếp</label>
+            <select name="orderby" id="sort">
+                <option value="0" selected="">Sản phẩm mới nhất</option>
+                <option value="1">Giá thấp tới cao</option>
+                <option value="2">Giá cao tới thấp</option>
+                <option value="3">Tên A-Z</option>
+                <option value="4">Tên Z-A</option>
+            </select>
+        </form>
+    </div>
+</div>
+<!--shop toolbar end-->
+
+
+
+
+<div id="result">
+    @await Html.PartialAsync("ListProducts")
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            function updateProducts(data) {
+                var isListActive = $("#list_tab").hasClass("active");
+
+                $.ajax({
+                    url: '/Product/Index',
+                    data: data,
+                    method: 'GET',
+                    success: function (result) {
+                        $('#result').html(result);
+
+                        if (isListActive) {
+                            $('#list').addClass("show active");
+                            $('#large').removeClass("show active");
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Có lỗi xảy ra: " + error);
+                    }
+                });
+            }
+
+            $("#sort").change(function () {
+                var sortType = $(this).val();
+                var queryString = window.location.search;
+                var urlParams = new URLSearchParams(queryString);
+                var cate = urlParams.get('category');
+                var search = urlParams.get('searchstring');
+
+                updateProducts({ page: 1, category: cate, searchString: search, sortType: sortType });
+            });
+
+            $('.category-link').click(function (event) {
+                event.preventDefault();
+                $(".category-link").removeClass("text-danger");
+                $(this).addClass("text-danger");
+
+                var loai = $(this).data('category');
+                var sortType = $("#sort").val();
+
+                updateProducts({ category: loai, sortType: sortType });
+                window.history.pushState(null, '', '?category=' + loai + "&page=1");
+            });
+
+            $('.btnSearch').click(function (event) {
+                event.preventDefault();
+                var searchString = $(this).prev().val();
+                var sortType = $("#sort").val();
+
+                updateProducts({ searchString: searchString, sortType: sortType });
+                window.history.pushState(null, '', '?searchstring=' + searchString + '&page=1');
+            });
+        });
+
+        function quickView(element) {
+            masp = $(element).closest('.single_product').data('masp');
+            $('#modal_box').data('masp', masp);//Thêm data-masp vào modal_box
+            $.ajax({
+                url: '/Product/QuickView',
+                data: { ProductId: masp },
+                method: 'GET',
+                success: function (result) {
+                    $("#name").text(result.productName);
+                    $("#price").text(result.price);
+                    $("#description").text(result.description);
+                    $("#image").attr("src", "assets/img/product/" + result.image);
+                },
+                error: function (xhr, status, error) {
+                    alert("Có lỗi xảy ra: " + error);
+                }
+            });
+        }
+    </script>
+
+        <script>
+            $(document).ready(function () {
+
+                $(document).on("click", ".cart_remove", function () {
+                    var masp = $(this).closest(".cart_item").data("masp");
+                    $.ajax({
+                        url: '/Customer/removeCart',
+                        type: 'POST',
+                        data: { productId: masp },
+                        success: function (result) {
+                            $("#cart-container").html(result);
+                        },
+                        error: function (xhr, status, error) {
+                            alert("Có lỗi xảy ra: " + error);
+                        }
+                    });
+                });
+
+                $(document).on("click", ".cart_add", function () {
+                    var masp = $(this).closest('.single_product').data('masp');
+                    var quantity = 1;
+                    $.ajax({
+                        url: '/Customer/addCart',
+                        type: 'POST',
+                        data: { productId: masp, quantity: quantity },
+                        success: function (result) {
+                            $("#cart-container").html(result);
+                        },
+                        error: function (xhr, status, error) {
+                            alert("Có lỗi xảy ra: " + error);
+                        }
+                    });
+                });
+
+                $(document).on("click", ".cart_add_more", function () {
+                    var masp = $('#modal_box').data('masp');
+                    var quantity = $('#quantity_add').val();
+                    $.ajax({
+                        url: '/Customer/addCart',
+                        type: 'POST',
+                        data: { productId: masp, quantity: quantity },
+                        success: function (result) {
+                            $("#cart-container").html(result);
+                        },
+                        error: function (xhr, status, error) {
+                            alert("Có lỗi xảy ra: " + error);
+                        }
+                    });
+                });
+
+            });
+
+            function addWishlist(element) {
+                var masp = $(element).closest(".single_product").data("masp");
+                $.ajax({
+                    url: "/Customer/addWishlist",
+                    data: { productId: masp },
+                    method: "POST",
+                    success: function (result) {
+                        $('#wishlist-container').html(result);
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Có lỗi xảy ra: " + error);
+                    }
+                });
+            }
+
+            function removeWishlist(element) {
+                var masp = $(element).data('masp');
+                $.ajax({
+                    url: "/Customer/removeWishlist",
+                    data: { productId: masp },
+                    method: "POST",
+                    success: function (result) {
+                        $('#wishlist-container').html(result);
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Có lỗi xảy ra: " + error);
+                    }
+                });
+            }
+        </script>
+    
+}

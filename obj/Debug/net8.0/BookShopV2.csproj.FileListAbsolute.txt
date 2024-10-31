@@ -560,3 +560,5 @@ D:\BackEndC#\BookShopV2 - Copy\obj\Debug\net8.0\refint\BookShopV2.dll
 D:\BackEndC#\BookShopV2 - Copy\obj\Debug\net8.0\BookShopV2.pdb
 D:\BackEndC#\BookShopV2 - Copy\obj\Debug\net8.0\BookShopV2.genruntimeconfig.cache
 D:\BackEndC#\BookShopV2 - Copy\obj\Debug\net8.0\ref\BookShopV2.dll
+D:\BackEndC#\BookShopV2\obj\Debug\net8.0\BookShopV2.sourcelink.json
+D:\BackEndC#\BookShopV2\bin\Debug\net8.0\X.PagedList.dll

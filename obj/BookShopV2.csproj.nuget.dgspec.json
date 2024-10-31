@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BackEndC#\\BookShopV2 - Copy\\BookShopV2.csproj": {}
+    "D:\\BackEndC#\\BookShopV2\\BookShopV2.csproj": {}
   },
   "projects": {
-    "D:\\BackEndC#\\BookShopV2 - Copy\\BookShopV2.csproj": {
+    "D:\\BackEndC#\\BookShopV2\\BookShopV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BackEndC#\\BookShopV2 - Copy\\BookShopV2.csproj",
+        "projectUniqueName": "D:\\BackEndC#\\BookShopV2\\BookShopV2.csproj",
         "projectName": "BookShopV2",
-        "projectPath": "D:\\BackEndC#\\BookShopV2 - Copy\\BookShopV2.csproj",
+        "projectPath": "D:\\BackEndC#\\BookShopV2\\BookShopV2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\BackEndC#\\BookShopV2 - Copy\\obj\\",
+        "outputPath": "D:\\BackEndC#\\BookShopV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,6 +123,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.5.7, )"
             }
           },
           "imports": [

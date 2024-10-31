@@ -28,6 +28,8 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/khong-truy-cap-duoc.html";
 });
 
+builder.Services.AddScoped<CategorySevice>();
+
 //Cấu hình đăng nhập bằng google, facebook
 builder.Services.AddAuthentication()
     .AddGoogle(googleOptions =>
@@ -114,6 +116,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Product}/{action=Index}/{id?}");
 
 app.Run();
