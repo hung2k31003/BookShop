@@ -104,11 +104,11 @@ namespace App.Areas.Identity.Controllers
         {
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User đăng xuất");
-            return RedirectToAction("Index", "Home", new {area = ""});
+            return RedirectToAction("Index", "Product", new {area = ""});
         }
         //
         // GET: /Account/Register
-        [HttpGet]
+        [HttpGet("/register/")]
         [AllowAnonymous]
         public IActionResult Register(string? returnUrl = null)
         {
@@ -118,7 +118,7 @@ namespace App.Areas.Identity.Controllers
         }
         //
         // POST: /Account/Register
-        [HttpPost]
+        [HttpPost("/register/")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model, string? returnUrl = null)
@@ -375,7 +375,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Account/ForgotPassword
-        [HttpGet]
+        [HttpGet("/forgotpassword")]
         [AllowAnonymous]
         public IActionResult ForgotPassword()
         {
@@ -384,7 +384,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // POST: /Account/ForgotPassword
-        [HttpPost]
+        [HttpPost("/forgotpassword")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
@@ -420,7 +420,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Account/ForgotPasswordConfirmation
-        [HttpGet]
+        [HttpGet("/forgotpasswordconfirmation/")]
         [AllowAnonymous]
         public IActionResult ForgotPasswordConfirmation()
         {
@@ -429,7 +429,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Account/ResetPassword
-        [HttpGet]
+        [HttpGet("/resetpassword")]
         [AllowAnonymous]
         public IActionResult ResetPassword(string code = null)
         {
@@ -438,7 +438,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // POST: /Account/ResetPassword
-        [HttpPost]
+        [HttpPost("/resetpassword")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
@@ -465,7 +465,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Account/ResetPasswordConfirmation
-        [HttpGet]
+        [HttpGet("/esetpasswordconfirmation/")]
         [AllowAnonymous]
         public IActionResult ResetPasswordConfirmation()
         {
@@ -474,7 +474,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Account/SendCode
-        [HttpGet]
+        [HttpGet("/sendcode/")]
         [AllowAnonymous]
         public async Task<ActionResult> SendCode(string returnUrl = null, bool rememberMe = false)
         {
@@ -489,7 +489,7 @@ namespace App.Areas.Identity.Controllers
         }
         //
         // POST: /Account/SendCode
-        [HttpPost]
+        [HttpPost("/sendcode/")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SendCode(SendCodeViewModel model)
@@ -531,7 +531,7 @@ namespace App.Areas.Identity.Controllers
         }
         //
         // GET: /Account/VerifyCode
-        [HttpGet]
+        [HttpGet("/verifycode/")]
         [AllowAnonymous]
         public async Task<IActionResult> VerifyCode(string provider, bool rememberMe, string returnUrl = null)
         {
@@ -546,7 +546,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // POST: /Account/VerifyCode
-        [HttpPost]
+        [HttpPost("/verifycode/")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> VerifyCode(VerifyCodeViewModel model)
@@ -579,7 +579,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Account/VerifyAuthenticatorCode
-        [HttpGet]
+        [HttpGet("/verifyauthenticatorcode/")]
         [AllowAnonymous]
         public async Task<IActionResult> VerifyAuthenticatorCode(bool rememberMe, string returnUrl = null)
         {
@@ -594,7 +594,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // POST: /Account/VerifyAuthenticatorCode
-        [HttpPost]
+        [HttpPost("/verifyauthenticatorcode/")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> VerifyAuthenticatorCode(VerifyAuthenticatorCodeViewModel model)
@@ -626,7 +626,7 @@ namespace App.Areas.Identity.Controllers
         }
         //
         // GET: /Account/UseRecoveryCode
-        [HttpGet]
+        [HttpGet("/userecoverycode/")]
         [AllowAnonymous]
         public async Task<IActionResult> UseRecoveryCode(string returnUrl = null)
         {
@@ -641,7 +641,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // POST: /Account/UseRecoveryCode
-        [HttpPost]
+        [HttpPost("/userecoverycode/")]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UseRecoveryCode(UseRecoveryCodeViewModel model)
@@ -670,9 +670,6 @@ namespace App.Areas.Identity.Controllers
         {
             return View();
         }
-
-
-
     
   }
 }

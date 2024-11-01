@@ -36,7 +36,7 @@ namespace BookShop.ViewComponents
                 });
             if (result.Count() == 0)
             {
-                return View("WishlistVC", new List<CartVM>());
+                return View("Cart", new List<CartVM>());
             }
             return View("Cart", result);
         }

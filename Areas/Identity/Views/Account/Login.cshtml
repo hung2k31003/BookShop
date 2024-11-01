@@ -32,7 +32,7 @@
         <!--login area start-->
         <div class="col-lg-6 col-md-6">
             <div class="account_form">
-                <h2>login</h2>
+                <h2>Đăng nhập</h2>
 
                 <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal" role="form">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -61,8 +61,7 @@
         <!--register area start-->
         <div class="col-lg-6 col-md-6">
             <div class="account_form register">
-                <h4>Đăng nhập bằng tài khoản.</h4>
-                <hr />
+                <h2>Đăng nhập bằng tài khoản.</h2>
                 @{
                     var schemes = await SignInManager.GetExternalAuthenticationSchemesAsync();
                     var loginProviders = schemes.ToList();
