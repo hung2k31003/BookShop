@@ -9143,11 +9143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BackEndC#\\BookShopV2\\BookShopV2.csproj",
+      "projectUniqueName": "D:\\BackEndC#\\BookShopV2 - Copy\\BookShopV2.csproj",
       "projectName": "BookShopV2",
-      "projectPath": "D:\\BackEndC#\\BookShopV2\\BookShopV2.csproj",
+      "projectPath": "D:\\BackEndC#\\BookShopV2 - Copy\\BookShopV2.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BackEndC#\\BookShopV2\\obj\\",
+      "outputPath": "D:\\BackEndC#\\BookShopV2 - Copy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

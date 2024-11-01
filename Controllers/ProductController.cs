@@ -83,7 +83,6 @@ namespace BookShopV2.Controllers
                 Description = p.Description,
                 Price = p.Price,
             }).FirstOrDefault();
-            ViewBag.QuickView = result;
             return Json(result);
         }
 

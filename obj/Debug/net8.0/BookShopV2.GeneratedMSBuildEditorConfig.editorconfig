@@ -17,259 +17,271 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookShopV2
 build_property.RootNamespace = BookShopV2
-build_property.ProjectDir = D:\BackEndC#\BookShopV2\
+build_property.ProjectDir = D:\BackEndC#\BookShopV2 - Copy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\BackEndC#\BookShopV2
+build_property.MSBuildProjectDirectory = D:\BackEndC#\BookShopV2 - Copy
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/AccessDenied.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ConfirmEmail.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/Error.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ErrorConfirmEmail.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ErrorConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxFcnJvckNvbmZpcm1FbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ExternalLoginConfirmation.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ExternalLoginConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2luQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ExternalLoginFailure.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ExternalLoginFailure.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2luRmFpbHVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ForgotPassword.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ForgotPasswordConfirmation.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/Lockout.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/Login.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/Register.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/RegisterConfirmation.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ResetPassword.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/ResetPasswordConfirmation.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/SendCode.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/SendCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxTZW5kQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/UseRecoveryCode.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/UseRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxVc2VSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/VerifyAuthenticatorCode.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/VerifyAuthenticatorCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxWZXJpZnlBdXRoZW50aWNhdG9yQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Account/VerifyCode.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Account/VerifyCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxWZXJpZnlDb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/AddPhoneNumber.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/AddPhoneNumber.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXEFkZFBob25lTnVtYmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/ChangePassword.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/DisplayRecoveryCodes.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/DisplayRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXERpc3BsYXlSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/EditProfile.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXEVkaXRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/Error.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/Index.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/ManageLogins.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/ManageLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXE1hbmFnZUxvZ2lucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/SetPassword.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXFNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Manage/VerifyPhoneNumber.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Manage/VerifyPhoneNumber.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcTWFuYWdlXFZlcmlmeVBob25lTnVtYmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Role/AddRoleClaim.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Role/AddRoleClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxBZGRSb2xlQ2xhaW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Role/Create.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Role/Delete.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Role/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Role/Edit.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Role/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Role/EditRoleClaim.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Role/EditRoleClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxFZGl0Um9sZUNsYWltLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/Role/Index.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/User/AddClaim.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/User/AddClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVXNlclxBZGRDbGFpbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/User/AddRole.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/User/AddRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVXNlclxBZGRSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/User/Index.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/User/SetPassword.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/User/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVXNlclxTZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/_ViewImports.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Areas/Identity/Views/_ViewStart.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Areas/Identity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Customer/CartList.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Customer/CartList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2FydExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Customer/MyCart.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Customer/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Customer/MyCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTXlDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Customer/MyWishlist.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Customer/MyOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTXlPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Customer/MyWishlist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTXlXaXNobGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Home/Index.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Customer/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Home/Privacy.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Product/Index.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Product/ListProducts.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Product/ListProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0UHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Product/ViewDetail.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Product/ViewDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxWaWV3RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/Components/Cart/Cart.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/Components/Cart/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/Components/Category/Category.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/Components/Category/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlcQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/Components/Wishlist/WishlistVC.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/Components/Wishlist/WishlistVC.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV2lzaGxpc3RcV2lzaGxpc3RWQy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/Error.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_Footer.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_Header.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_LoginPartial.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_MainLayout.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_MainLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_MenuManage.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_MenuManage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51TWFuYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_StatusMessage.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdGF0dXNNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_SubLayout.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_SubLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/_ViewImports.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/_ViewStart.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BackEndC\#/BookShopV2/Views/Shared/_Layout.cshtml]
+[D:/BackEndC\#/BookShopV2 - Copy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qy80b8txvz

@@ -123,7 +123,8 @@ namespace App.Areas.Identity.Controllers
                 return NotFound($"Không có user");
             }
 
-            model.user = await _userManager.FindByIdAsync(id);
+            AppUser? appUser = await _userManager.FindByIdAsync(id);
+            model.user = appUser!;
 
             if (model.user == null)
             {

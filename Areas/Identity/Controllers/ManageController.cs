@@ -38,7 +38,7 @@ namespace App.Areas.Identity.Controllers
 
         //
         // GET: /Manage/Index
-        [HttpGet("/userinfo/")]
+        [HttpGet()]
         public async Task<IActionResult> Index(ManageMessageId? message = null)
         {
             ViewData["StatusMessage"] =

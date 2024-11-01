@@ -39,6 +39,7 @@ namespace App.Areas.Identity.Controllers
             _roleManager = roleManager;
             _context = context;
             _userManager = userManager;
+            StatusMessage = "";
         }
 
         [TempData]
@@ -149,7 +150,7 @@ namespace App.Areas.Identity.Controllers
                 return NotFound("Không tìm thấy role");
             }
 
-            model.Name = role.Name;
+            model.Name = role.Name!;
             model.Claims = await _context.RoleClaims.Where(rc => rc.RoleId == role.Id).ToListAsync();
             model.role = role;
             ModelState.Clear();
@@ -259,8 +260,8 @@ namespace App.Areas.Identity.Controllers
 
             var Input = new EditClaimModel()
             {
-                ClaimType = claim.ClaimType,
-                ClaimValue = claim.ClaimValue,
+                ClaimType = claim.ClaimType!,
+                ClaimValue = claim.ClaimValue!,
                 role = role
             };
 
