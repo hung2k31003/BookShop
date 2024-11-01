@@ -171,7 +171,6 @@ namespace BookShopV2.Controllers
                     Quantity = c.Quantity,
                 }).ToList();
             return PartialView("CartList", result);
-
         }
     }
 }

@@ -35,6 +35,10 @@ namespace BookShopV2.ViewComponents
                          Image = p.Image,
                          Price = p.Price,
                      };
+            if (kq.Count() == 0)
+            {
+                return View("WishlistVC", new List<WishlistVM>());
+            }
 
             return View("WishlistVC", kq);
         }

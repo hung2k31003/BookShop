@@ -34,6 +34,10 @@ namespace BookShop.ViewComponents
                     Quantity = c.Quantity,
                     Image = p.Image,
                 });
+            if (result.Count() == 0)
+            {
+                return View("WishlistVC", new List<CartVM>());
+            }
             return View("Cart", result);
         }
     }
